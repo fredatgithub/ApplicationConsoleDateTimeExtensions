@@ -14,7 +14,6 @@ namespace ApplicationConsoleDateTimeExtensions
       Display($"The last day of the month is {DateTimeExtensionClass.EndOfMonth(today)}");
       Display($"The start of the day is {DateTimeExtensionClass.StartOfDay(today)}");
       Display($"The end of the day is {DateTimeExtensionClass.EndOfDay(today)}");
-
       Display("Press any key to exit:");
       Console.ReadKey();
     }
